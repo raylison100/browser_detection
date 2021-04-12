@@ -1,16 +1,7 @@
 <template>
   <div class="hello">
-    <h1> Detection Browser </h1>
-    <!-- <ul>
-      <li><b>Internet Chrome: </b> {{$browserDetect.isChrome}}</li>
-      <li><b>Internet Firefox: </b> {{$browserDetect.isFirefox}}</li>
-      <li><b>Internet Opera: </b> {{$browserDetect.isOpera}}</li>
-      <li><b>Internet Safari: </b> {{$browserDetect.isSafari}}</li>
-      <li><b>Internet Edge: </b> {{$browserDetect.isEdge}}</li>
-      <li><b>Internet ChromeIOS: </b> {{$browserDetect.isChromeIOS}}</li>
-      <li><b>Internet IOS: </b> {{$browserDetect.isIOS}}</li>
-      <li><b>Internet Explorer: </b> {{$browserDetect.isIE}}</li>
-    </ul> -->
+    <h1> Detection Browser:</h1>
+
     <div class="center">
       <div class="example" :class="$browserDetect.meta.name"></div>
     </div>    
@@ -62,15 +53,5 @@
   }
   .IOS {
     background-color: rgb(176, 111, 206)
-  }
-
-  ul {
-    list-style-type: none;
-    padding: 0;
-  }
-
-  li {
-    display: block;
-    margin: 0 10px;
   }
 </style>
